@@ -1,4 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    /* width: 1360px;
+    margin:0; 
+    padding:0; */
+}
+
 .nav-title nav{
     display:flex;
     justify-content: space-between;
@@ -42,4 +49,48 @@ letter-spacing: 0%;;
 border-radius: 10px;
 background: rgb(253, 110, 10);
 padding:5px 3px;
+cursor:pointer;
+}
+.content-title{
+    margin:0;
+    padding:0;
+    width:415px;
+    height:250px ;
+} 
+.content-title h3{
+color: rgb(71, 71, 71);
+font-family: Open Sans;
+font-size: 30px;
+font-weight: 600;
+line-height: 43px;
+letter-spacing: 0%;
+margin-bottom:0px;
+}
+.content-title h2{
+color: rgb(24, 24, 24);
+font-family: Open Sans;
+font-size: 50px;
+font-weight: 700;
+line-height: 70px;
+letter-spacing: 0%;
+margin-top:2px;
+margin-bottom:5px;
+}
+.content-title p{
+color: rgb(117, 117, 117);
+font-family: Open Sans;
+font-size: 13px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0%;
+margin-top: 10px;
+}
+.content{
+    display:flex;
+    justify-content:space-between;
+    margin:0 50px 0 200px;
+}
+.content-image {
+    width:410px;
+    height:475px;
 }
